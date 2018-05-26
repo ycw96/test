@@ -7,7 +7,6 @@ int main()
 
 	while (cin >> T)
 	{
-		
 		if (T < 22) //如果溫度低於22度
 		{
 			button = true; //開關就打開，電流通過
@@ -18,8 +17,7 @@ int main()
 		{
 			button = false; //開關就關掉，電流不通過
 			cout << "斷電" << endl; //就會斷電
-		}
-		
+		}		
 	}
 	return 0;
 }
