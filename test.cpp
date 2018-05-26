@@ -2,27 +2,24 @@
 using namespace std;
 int main()
 {
-	double T; //·Å«×
-	bool button = false; //¶}Ãö¥ı³]©wÃö
+	double T; //æº«åº¦
+	bool button = false; //é–‹é—œå…ˆè¨­å®šé—œ
 
 	while (cin >> T)
 	{
 		
-		if (T < 22) //¦pªG·Å«×§C©ó22«×
+		if (T < 22) //å¦‚æœæº«åº¦ä½æ–¼22åº¦
 		{
-			button = true; //¶}Ãö´N¥´¶}¡A¹q¬y³q¹L
-			cout << "¥[¼ö" << endl; //¶}©l¥[¼ö
+			button = true; //é–‹é—œå°±æ‰“é–‹ï¼Œé›»æµé€šé
+			cout << "åŠ ç†±" << endl; //é–‹å§‹åŠ ç†±
 		}
 		
-		else if (T >= 22) //¦pªG·Å«×°ª©ó22«×(¥]§t22«×)
+		else if (T >= 22) //å¦‚æœæº«åº¦é«˜æ–¼22åº¦(åŒ…å«22åº¦)
 		{
-			button = false; //¶}Ãö´NÃö±¼¡A¹q¬y¤£³q¹L
-			cout << "Â_¹q" << endl; //´N·|Â_¹q
+			button = false; //é–‹é—œå°±é—œæ‰ï¼Œé›»æµä¸é€šé
+			cout << "æ–·é›»" << endl; //å°±æœƒæ–·é›»
 		}
 		
 	}
 	return 0;
-	
-
-
 }
